@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+        integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <div class="side-menu" id="side-menu">
+        <nav>
+            <i class="fa fa-times closebtn" id="closeNav"></i>
+            <div class="logo">
+                <img src="https://avatars2.githubusercontent.com/u/53840723?s=460&v=4" alt="User">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Porfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="side-footer">
+            <footer id="side-footer">
+                <i class="fas fa-heart"></i>
+                Happy Valentines Day 2020
+            </footer>
+        </div>
+    </div>
+    <header>
+        <button id="openNav" class="toggle">
+            <i class="fas fa-chevron-right"></i>
+
+        </button>
+        <h1>My landing page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, odit?</p>
+        <button class="cta-btn" id="openModal">Sign up</button>
+    </header>
+    <!-- Main Section -->
+    <section class="container">
+        <h1>Tell me more about this</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et deserunt non unde nemo quia debitis numquam
+            sapiente, sint repellendus possimus, porro ut, cum reiciendis expedita ipsa enim impedit hic at.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt earum sapiente repellat neque, dolorem
+            optio delectus? Harum ea amet assumenda asperiores incidunt laborum hic sunt soluta suscipit atque ab
+            veritatis facere voluptatem vero molestiae delectus quis, libero eveniet similique omnis cumque magni,
+            officiis consectetur alias. Quisquam hic ipsa voluptatibus tempora.
+        </p>
+        <h2>Living in San Diego</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit eum optio aspernatur enim saepe reiciendis
+            laborum excepturi nostrum! Dolorum optio soluta voluptatibus quam, sit eum totam eligendi provident!
+            Doloribus neque nihil atque deleniti porro excepturi optio, officiis sint aliquid temporibus?</p>
+        <h2>Best waves</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, earum.</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, earum.</li>
+            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, earum.</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea adipisci totam aliquid quae, error
+            exercitationem provident nam praesentium eligendi, quisquam, corrupti dolores ex culpa aspernatur. Non
+            cumque porro quaerat architecto numquam voluptate quis veniam quae a laudantium ipsam beatae, amet
+            laboriosam tenetur maiores, cum tempore obcaecati temporibus? Quas recusandae inventore perspiciatis quod,
+            commodi pariatur, iste eos sed laudantium quaerat est impedit ipsum consequuntur et! Cum perspiciatis
+            obcaecati velit asperiores?</p>
+    </section>
+    <!-- Modal -->
+    <!-- container covers page -->
+    <div class="modal-container" id="modal">
+        <!-- modal contains content -->
+        <div class="modal">
+            <button class="close-btn" id="closeModal">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+
+            </div>
+            <div class="modal-content">
+                <div class="modal-register">
+                    <h3>Register to get latest articles</h3>
+                    <img class="modal-img" src="https://image.flaticon.com/icons/svg/2165/2165778.svg" alt="" srcset="">
+                </div>
+                <div>
+                    <form class="modal-form">
+                        <div>
+                            <label for="name">Name</label>
+                            <input class="form-input" type="text" name="name" id="name" placeholder="your name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input class="form-input" type="email" name="email" id="email"
+                                placeholder="here goes email">
+                        </div>
+                        <div>
+                            <label for="password">Password</label>
+                            <input class="form-input" type="password" name="password" id="password"
+                                placeholder="pasword please">
+                        </div>
+                        <div>
+                            <label for="password2">Confirm Password</label>
+                            <input class="form-input" type="password" name="password2" id="password2"
+                                placeholder="confirm password">
+                        </div>
+                        <input class="form-input" type="submit" value="Submit" class="submit-btn">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
