@@ -10,13 +10,13 @@ window.addEventListener("click", e => {
   e.target === sideMenu || e.target === openNav
     ? (sideMenu.style.width = "200px")
     : (sideMenu.style.width = "0px");
-  document.getElementById("side-footer").style.display = "block";
+  // document.getElementById("side-footer").style.display = "block";
 });
 
 //Hide navigation
 closeNav.addEventListener("click", () => {
   sideMenu.style.width = "0";
-  document.getElementById("side-footer").style.display = "none";
+  // document.getElementById("side-footer").style.display = "none";
 });
 
 //Show modal
