@@ -34,7 +34,6 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   background: url("https://images.pexels.com/photos/2607830/pexels-photo-2607830.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  /* background-position: center; */
   background-size: cover;
   color: #fff;
   position: fixed;
@@ -227,7 +226,6 @@ input[type="submit"]:hover {
 }
 .modal-form label {
   display: block;
-  /* margin-bottom: 2px; */
 }
 .submit-btn {
   margin: 5px;
@@ -235,9 +233,9 @@ input[type="submit"]:hover {
 .form-input {
   border: none;
   width: 100%;
-  background-color: rgb(223, 219, 219);
-  padding: 5px;
-  border-radius: 5px;
+  background-color: rgb(245, 245, 245);
+  padding: 5px 10px;
+  border: 0.4px solid #dbd9d9;
   outline: none;
   margin-bottom: 5px;
 }
